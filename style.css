@@ -1,5 +1,31 @@
+root{
+    --cinza:white
+    --vermelho:white
+    --preto:white
+}
+
 body{
     background-color: var(--vermelho);
     align-items: center;
-                                                                                                                                                                                      
+    display: flex;
+    justify-content: center;
+    font-family: 'oi', 'oi', 'oi';
+    min-height: 100vh;                                                                                                                                        
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:var(--cinza);
+}
+
+h2{
+    color: var(--cinza)
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.teclado{
+    background: #833AB4;
+    background: linear-gradient()
 }
